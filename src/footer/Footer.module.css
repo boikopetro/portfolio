@@ -1,0 +1,28 @@
+.footerBlock {
+    height: 50vh;
+    background-color: crimson;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: gold;
+}
+
+.icons {
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    border-radius: 50%;
+}

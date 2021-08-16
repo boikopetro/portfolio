@@ -13,9 +13,13 @@
 }
 
 .contactsBlock form {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border: 1px solid;
-    display: flex;
     min-width: 250px;
+}
+
+.contactsBlock form textarea, input, button {
+    margin: 10px;
 }
