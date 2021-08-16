@@ -1,0 +1,21 @@
+.contactsBlock {
+    height: 100vh;
+    background-color:magenta ;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: brown;
+}
+
+.contactsBlock form {
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid;
+    display: flex;
+    min-width: 250px;
+}
