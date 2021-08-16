@@ -1,6 +1,6 @@
 .project {
     width: 350px;
-    background-color: darkslateblue;
+    background-color: greenyellow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +11,21 @@
 
 }
 
-.icon {
-    width: 350px;
+.imgContainer {
+    width: 285px;
     height: 250px;
-    background-color: white;
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project button {
+    height: 30px;
+    border-radius: 3px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }

@@ -1,11 +1,13 @@
 .footerBlock {
-    height: 50vh;
+    min-height: 50vh;
     background-color: crimson;
+    flex-wrap: wrap;
 }
 
 .footerContainer {
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 .title {
@@ -26,3 +28,4 @@
     background-color: darkcyan;
     border-radius: 50%;
 }
+
