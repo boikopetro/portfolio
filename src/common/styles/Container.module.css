@@ -8,3 +8,9 @@
     border: 2px solid;
 
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}

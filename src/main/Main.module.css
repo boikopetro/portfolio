@@ -1,15 +1,35 @@
 .mainBlock {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: #262626;
 }
 
 .greeting {
+    padding: 20px;
+    border-radius: 10px;
     width: 300px;
-    background-color: cornflowerblue;
+    background-color: #fa4529;
 }
 
 .photo {
     height: 400px;
     width: 300px;
-    background-color: white;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.greeting p {
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .greeting {
+        width: 260px;
+    }
 }

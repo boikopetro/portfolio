@@ -1,6 +1,6 @@
 .header {
     min-height: 80px;
-    background-color: lightslategrey;
+    background-color: #666666;
     display: flex;
     justify-content: flex-end;
     align-items: center;

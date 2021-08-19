@@ -1,7 +1,12 @@
 import styleContainer from './../common/styles/Container.module.css';
 import style from './Main.module.css'
+import myPhoto from "../assets/images/PetroBoikoNew.png";
 
 function Main() {
+
+    const photo = {
+        backgroundImage: `url(${myPhoto})`
+    }
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
@@ -10,7 +15,7 @@ function Main() {
                     <h1>I am Petro Boiko</h1>
                     <p>Front-end Developer</p>
                 </div>
-                <div className={style.photo}></div>
+                <div style={photo} className={style.photo}></div>
             </div>
         </div>
     );

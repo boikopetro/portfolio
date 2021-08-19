@@ -1,6 +1,6 @@
 .contactsBlock {
     height: 100vh;
-    background-color:magenta ;
+    background-color: #262626;
 }
 
 .contactsContainer {
@@ -8,18 +8,21 @@
     justify-content: flex-start;
 }
 
-.title {
-    background-color: brown;
-}
 
 .contactsBlock form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     border: 1px solid;
-    min-width: 250px;
+    width: 500px;
 }
 
 .contactsBlock form textarea, input, button {
     margin: 10px;
+}
+
+@media screen and (max-width: 622px) {
+    .contactsBlock form {
+        width: 100%;
+    }
 }
