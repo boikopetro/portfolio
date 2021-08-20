@@ -13,8 +13,6 @@
 .photo {
     height: 400px;
     width: 300px;
-
-
     display: flex;
     align-items: center;
     justify-content: center;

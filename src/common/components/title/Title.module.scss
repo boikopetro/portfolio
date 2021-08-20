@@ -1,0 +1,31 @@
+@import "../../styles/sass/variables";
+
+.title {
+  margin: 0 0 60px;
+  position: relative;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  color: $titleColor;
+
+  .title h2 {
+    margin: 0px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: $titleColor;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+  }
+}
+
+
+
+
+
